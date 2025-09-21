@@ -1,0 +1,162 @@
+Lambda Execution Result (Latest Run):
+=== Experiment Output ===
+
+============================================================
+
+EXPERIMENT RESULTS SUMMARY
+
+============================================================
+
+LP Robust Conformal Prediction:
+
+- Epsilon (local perturbation): 0.1
+
+- Rho (global perturbation): 0.05
+
+- Target coverage: 90.0%
+
+- Achieved coverage (original): 0.8933 (89.3%)
+
+- Achieved coverage (shifted): 0.9100 (91.0%)
+
+- Worst-case quantile: 3.9060
+
+Non-Robust Conformal Prediction:
+
+- Achieved coverage (shifted): 0.8933 (89.3%)
+
+Robustness Improvement: 0.0100 vs 0.0067
+
+============================================================
+
+=== Experiment Errors ===
+
+2025-09-21 10:43:53,057 - INFO - Starting LP Conformal Prediction Experiment
+
+2025-09-21 10:43:53,057 - INFO - Generating synthetic data...
+
+2025-09-21 10:43:53,667 - INFO - Fitting LP conformal prediction model...
+
+2025-09-21 10:43:53,767 - INFO - Model fitted successfully. Worst-case quantile: 3.9060
+
+2025-09-21 10:43:53,768 - INFO - Coverage on test data: 0.8933
+
+2025-09-21 10:43:53,768 - INFO - Testing robustness under distribution shift...
+
+2025-09-21 10:43:53,768 - INFO - Coverage on shifted test data: 0.9100
+
+2025-09-21 10:43:53,768 - INFO - Comparing with non-robust conformal prediction...
+
+2025-09-21 10:43:53,768 - INFO - Fitting LP conformal prediction model...
+
+2025-09-21 10:43:53,768 - INFO - Model fitted successfully. Worst-case quantile: 3.7560
+
+2025-09-21 10:43:53,768 - INFO - Non-robust coverage on shifted data: 0.8933
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "\n============================================================\nEXPERIMENT RESULTS SUMMARY\n============================================================\nLP Robust Conformal Prediction:\n  - Epsilon (local perturbation): 0.1\n  - Rho (global perturbation): 0.05\n  - Target coverage: 90.0%\n  - Achieved coverage (original): 0.8933 (89.3%)\n  - Achieved coverage (shifted): 0.9100 (91.0%)\n  - Worst-case quantile: 3.9060\n\nNon-Robust Conformal Prediction:\n  - Achieved coverage (shifted): 0.8933 (89.3%)\n\nRobustness Improvement: 0.0100 vs 0.0067\n============================================================\n",
+
+"stderr": "2025-09-21 10:43:53,057 - INFO - Starting LP Conformal Prediction Experiment\n2025-09-21 10:43:53,057 - INFO - Generating synthetic data...\n2025-09-21 10:43:53,667 - INFO - Fitting LP conformal prediction model...\n2025-09-21 10:43:53,767 - INFO - Model fitted successfully. Worst-case quantile: 3.9060\n2025-09-21 10:43:53,768 - INFO - Coverage on test data: 0.8933\n2025-09-21 10:43:53,768 - INFO - Testing robustness under distribution shift...\n2025-09-21 10:43:53,768 - INFO - Coverage on shifted test data: 0.9100\n2025-09-21 10:43:53,768 - INFO - Comparing with non-robust conformal prediction...\n2025-09-21 10:43:53,768 - INFO - Fitting LP conformal prediction model...\n2025-09-21 10:43:53,768 - INFO - Model fitted successfully. Worst-case quantile: 3.7560\n2025-09-21 10:43:53,768 - INFO - Non-robust coverage on shifted data: 0.8933\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 3178.86 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
+=== Experiment Output ===
+
+============================================================
+
+EXPERIMENT RESULTS SUMMARY
+
+============================================================
+
+LP Robust Conformal Prediction:
+
+- Epsilon (local perturbation): 0.1
+
+- Rho (global perturbation): 0.05
+
+- Target coverage: 90.0%
+
+- Achieved coverage (original): 0.8933 (89.3%)
+
+- Achieved coverage (shifted): 0.9100 (91.0%)
+
+- Worst-case quantile: 3.9060
+
+Non-Robust Conformal Prediction:
+
+- Achieved coverage (shifted): 0.8933 (89.3%)
+
+Robustness Improvement: 0.0100 vs 0.0067
+
+============================================================
+
+=== Experiment Errors ===
+
+2025-09-21 10:43:53,932 - INFO - Starting LP Conformal Prediction Experiment
+
+2025-09-21 10:43:53,932 - INFO - Generating synthetic data...
+
+2025-09-21 10:43:53,949 - INFO - Fitting LP conformal prediction model...
+
+2025-09-21 10:43:53,949 - INFO - Model fitted successfully. Worst-case quantile: 3.9060
+
+2025-09-21 10:43:53,949 - INFO - Coverage on test data: 0.8933
+
+2025-09-21 10:43:53,949 - INFO - Testing robustness under distribution shift...
+
+2025-09-21 10:43:53,949 - INFO - Coverage on shifted test data: 0.9100
+
+2025-09-21 10:43:53,949 - INFO - Comparing with non-robust conformal prediction...
+
+2025-09-21 10:43:53,949 - INFO - Fitting LP conformal prediction model...
+
+2025-09-21 10:43:53,949 - INFO - Model fitted successfully. Worst-case quantile: 3.7560
+
+2025-09-21 10:43:53,949 - INFO - Non-robust coverage on shifted data: 0.8933
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "\n============================================================\nEXPERIMENT RESULTS SUMMARY\n============================================================\nLP Robust Conformal Prediction:\n  - Epsilon (local perturbation): 0.1\n  - Rho (global perturbation): 0.05\n  - Target coverage: 90.0%\n  - Achieved coverage (original): 0.8933 (89.3%)\n  - Achieved coverage (shifted): 0.9100 (91.0%)\n  - Worst-case quantile: 3.9060\n\nNon-Robust Conformal Prediction:\n  - Achieved coverage (shifted): 0.8933 (89.3%)\n\nRobustness Improvement: 0.0100 vs 0.0067\n============================================================\n",
+
+"stderr": "2025-09-21 10:43:53,932 - INFO - Starting LP Conformal Prediction Experiment\n2025-09-21 10:43:53,932 - INFO - Generating synthetic data...\n2025-09-21 10:43:53,949 - INFO - Fitting LP conformal prediction model...\n2025-09-21 10:43:53,949 - INFO - Model fitted successfully. Worst-case quantile: 3.9060\n2025-09-21 10:43:53,949 - INFO - Coverage on test data: 0.8933\n2025-09-21 10:43:53,949 - INFO - Testing robustness under distribution shift...\n2025-09-21 10:43:53,949 - INFO - Coverage on shifted test data: 0.9100\n2025-09-21 10:43:53,949 - INFO - Comparing with non-robust conformal prediction...\n2025-09-21 10:43:53,949 - INFO - Fitting LP conformal prediction model...\n2025-09-21 10:43:53,949 - INFO - Model fitted successfully. Worst-case quantile: 3.7560\n2025-09-21 10:43:53,949 - INFO - Non-robust coverage on shifted data: 0.8933\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 165.10 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: ed05bde3-97b4-4995-b85b-2771ed05d987 Version: $LATEST
+
+RequestId: ed05bde3-97b4-4995-b85b-2771ed05d987 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: ed05bde3-97b4-4995-b85b-2771ed05d987
+
+REPORT RequestId: ed05bde3-97b4-4995-b85b-2771ed05d987	Duration: 166.44 ms	Billed Duration: 167 ms	Memory Size: 3008 MB	Max Memory Used: 23 MB	
+
